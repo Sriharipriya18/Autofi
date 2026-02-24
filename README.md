@@ -1,16 +1,25 @@
-# expense_manager
+# AutoFi
 
-A new Flutter project.
+AutoFi is a Flutter-based personal expense manager with local-first features,
+including offline AI insights, demo mode, backup/restore, and biometric unlock.
 
-## Getting Started
+## Features
+- Local PIN protection with optional biometrics
+- Demo mode for quick onboarding
+- JSON backup and restore
+- Offline AI insights:
+  - anomaly detection
+  - month-over-month rise highlights
+  - recurring payment detection
+- AI tuning screen for thresholds
 
-This project is a starting point for a Flutter application.
+## Build & Run
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Android APK (debug)
+```bash
+flutter build apk --debug
+```
